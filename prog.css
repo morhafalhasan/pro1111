@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color:white;
+box-shadow: 0px 0px 12px black;
+position: fixed;
+z-index: 1;
+}
+header button{
+    margin-top: 15px;
+    width: 140px;
+    padding: 10px;
+    border: none;
+    background-color: none;
+    outline: none;
+    font-size: 18px;
+    box-shadow: 0px 0px 88px whitesmoke;
+    font-family: "Slabo 27px", serif;
+}
+header button:hover{
+    color:#af0f16  ;
+    font-weight: bold;
+    box-shadow: 0px 0px 15px silver;
+    transition: 1s;
+}
+header img{
+    width: 100px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+#imo1{
+    width: 100%;
+    height: 650px;
+    margin-top: 70px;
+}
+marquee{
+    position: absolute;
+    top: 373px;
+    left: 500px;
+    color: rgb(7, 10, 12);
+    text-align: center;
+    font-size: 38px;
+    width: 300px;
+    height: 148px;
+    font-family: "Slabo 27px", serif;
+}
+aside{
+    width: 13%;
+    height: 400px;
+    background: #a1a0a0;
+    font-family: "Slabo 27px", serif;
+    float: right;
+    margin-top: -5px;
+}
+aside button{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Slabo 27px", serif;
+    font-weight: bold;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    outline: none;
+}
+aside button:hover{
+    color: white;
+    background-color: rgb(235, 134, 11);
+    transition: 1s;
+
+}
+main{
+    width: 87%;
+    height: 400px;
+    background: #f8f6f6;
+    margin-top: -5px;
+}
+main h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Slabo 27px", serif;
+    margin-top: 10px;
+}
+main b{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Slabo 27px", serif;
+    margin-top: 10px;
+    color: rgb(49, 42, 34);
+    margin-top: 30px;
+}
+main img{
+    width: 90px;
+    margin-top: 20px;
+}
+#d1 div{
+    width: 274px;
+    height: 420px;
+    border: 1px solid rgb(163, 155, 155);
+    font-size: 18px;
+    font-family: "Slabo 27px", serif;
+    font-weight: bold;
+    box-shadow: 1px 1px 12px gray;
+    float: left;
+    margin-left: 130px;
+    margin-top: 60px;
+    border-radius: 12px;
+}
+footer{
+    width: 100%;
+    height: 300PX;
+    background-color: black;
+    margin-top: 550px;
+    clear: both;
+    box-shadow: 0px 0px 40px gray;
+}
+footer div{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Slabo 27px", serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 73px;
+    color: rgb(169, 187, 202);
+    float: left;
+
+}
+footer div a{
+    text-decoration: none;
+    color: rgb(25, 62, 95);
+}
+footer div a:hover{
+    color: rgb(114, 114, 102);
+}
